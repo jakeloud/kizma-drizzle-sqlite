@@ -1,0 +1,19 @@
+{
+  "name": "kizma-drizzle-sqlite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "kizma -f",
+    "gen:db": "drizzle-kit generate:sqlite && drizzle-kit push:sqlite"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "drizzle-kit": "^0.20.14",
+    "kizma": "^0.0.7"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "drizzle-orm": "^0.30.1"
+  }
+}

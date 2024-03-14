@@ -1,0 +1,8 @@
+{
+  "driver": "better-sqlite",
+  "dbCredentials": {
+    "url": "./sqlite.db"
+  },
+  "out": "./migrations",
+  "schema": "./schema.ts"
+}
